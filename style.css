@@ -1,0 +1,47 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.social-card {
+  background-color: #2a2929;
+  width: 300px;
+  height: 500px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+h2 {
+  color: white;
+}
+.avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.name {
+  color: white;
+  font-size: 30px;
+}
+.city {
+  color: lightgreen;
+}
+.dev {
+  color: white;
+}
+
+.skills {
+  width: 200px;
+  height: 40px;
+  background-color: #464444;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
